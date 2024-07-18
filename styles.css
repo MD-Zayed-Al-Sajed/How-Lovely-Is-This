@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to right, #fa9797, #f52b5e, #fa9797);
+    color: #000000;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #fa9797, #f52b5e, #fa9797);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #000000;
+}
+
+.logo img {
+    width: 150px;
+}
+
+/* Making logo image round */
+.logo-img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(224, 4, 77, 0.959);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #e74c3c;
+}
+
+/* Hero Section */
+#hero {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: #ffffff;
+    padding: 50px 20px;
+}
+
+#hero h1 {
+    font-size: 3em;
+    font-family: 'Lobster', cursive;
+}
+
+/* Flavors Section */
+#flavors {
+    padding: 20px;
+    background: linear-gradient(to right, #ffffff, #dd8e6f, #ffffff);
+}
+
+#flavors h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.flavor {
+    display: inline-block;
+    width: 300px;
+    margin: 10px;
+}
+
+.flavor img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0.5, 0.5, 0.5, 0.6);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.flavor img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.flavor h3 {
+    margin: 10px 0;
+}
+
+.flavor p {
+    color: #666;
+}
+
+/* About Section */
+#about {
+    padding: 20px;
+    background: linear-gradient(to right, #fa9797, #f52b5e, #fa9797);
+    color: #ffffff;
+}
+
+#about h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(to right, #fa9797, #ffffff, #fa9797);
+    color: #000000;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-logo img {
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.company-info {
+    margin: 10px;
+}
+
+.company-info h3 {
+    font-family: 'Lobster', cursive;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.social-links li {
+    display: inline;
+}
+
+.social-links a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
